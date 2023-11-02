@@ -90,19 +90,19 @@
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Lg-mt-h17">
                                     <rect key="frame" x="0.0" y="0.0" width="73.333333333333329" height="73.333333333333329"/>
-                                    <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                    <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="width" secondItem="4Lg-mt-h17" secondAttribute="height" multiplier="1:1" id="FbQ-oF-1bn"/>
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                     <state key="normal" title="0">
-                                        <color key="titleColor" systemColor="labelColor"/>
+                                        <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                     </state>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qkL-Ax-NhI">
                                     <rect key="frame" x="93.333333333333343" y="0.0" width="73.333333333333343" height="73.333333333333329"/>
-                                    <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                    <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="width" secondItem="qkL-Ax-NhI" secondAttribute="height" multiplier="1:1" id="7QG-cm-46q"/>
                                         <constraint firstAttribute="width" secondItem="qkL-Ax-NhI" secondAttribute="height" multiplier="1:1" id="txo-AX-ZJd"/>
@@ -110,12 +110,12 @@
                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                     <state key="normal" title="0">
-                                        <color key="titleColor" systemColor="labelColor"/>
+                                        <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                     </state>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z88-zJ-k73">
                                     <rect key="frame" x="186.66666666666666" y="0.0" width="72.999999999999972" height="73.333333333333329"/>
-                                    <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                    <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="width" secondItem="Z88-zJ-k73" secondAttribute="height" multiplier="1:1" id="6ef-Rm-I3z"/>
                                         <constraint firstAttribute="width" secondItem="Z88-zJ-k73" secondAttribute="height" multiplier="1:1" id="UPU-eO-sD9"/>
@@ -123,12 +123,12 @@
                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                     <state key="normal" title="0">
-                                        <color key="titleColor" systemColor="labelColor"/>
+                                        <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                     </state>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2DF-5X-j6X">
                                     <rect key="frame" x="279.66666666666669" y="0.0" width="73.333333333333314" height="73.333333333333329"/>
-                                    <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                    <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="width" secondItem="2DF-5X-j6X" secondAttribute="height" multiplier="1:1" id="Zj8-CF-7sI"/>
                                         <constraint firstAttribute="width" secondItem="2DF-5X-j6X" secondAttribute="height" multiplier="1:1" id="mni-Kw-0Wn"/>
@@ -136,7 +136,7 @@
                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                     <state key="normal" title="0">
-                                        <color key="titleColor" systemColor="labelColor"/>
+                                        <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                     </state>
                                 </button>
                             </subviews>
@@ -146,19 +146,19 @@
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kwl-J8-73f">
                                     <rect key="frame" x="0.0" y="0.0" width="73.333333333333329" height="73"/>
-                                    <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                    <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="width" secondItem="kwl-J8-73f" secondAttribute="height" multiplier="1:1" id="N0p-pr-RId"/>
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                     <state key="normal" title="0">
-                                        <color key="titleColor" systemColor="labelColor"/>
+                                        <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                     </state>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R1b-7R-CgJ">
                                     <rect key="frame" x="93.333333333333343" y="0.0" width="73.333333333333343" height="73"/>
-                                    <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                    <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="width" secondItem="R1b-7R-CgJ" secondAttribute="height" multiplier="1:1" id="gbI-gz-WYj"/>
                                         <constraint firstAttribute="width" secondItem="R1b-7R-CgJ" secondAttribute="height" multiplier="1:1" id="rmp-v4-sWM"/>
@@ -166,12 +166,12 @@
                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                     <state key="normal" title="0">
-                                        <color key="titleColor" systemColor="labelColor"/>
+                                        <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                     </state>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ycp-Ou-vcf">
                                     <rect key="frame" x="186.66666666666666" y="0.0" width="72.999999999999972" height="73"/>
-                                    <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                    <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="width" secondItem="Ycp-Ou-vcf" secondAttribute="height" multiplier="1:1" id="LyN-GQ-kzP"/>
                                         <constraint firstAttribute="width" secondItem="Ycp-Ou-vcf" secondAttribute="height" multiplier="1:1" id="ofc-ev-IPq"/>
@@ -179,12 +179,12 @@
                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                     <state key="normal" title="0">
-                                        <color key="titleColor" systemColor="labelColor"/>
+                                        <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                     </state>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lvI-69-5hK">
                                     <rect key="frame" x="279.66666666666669" y="0.0" width="73.333333333333314" height="73"/>
-                                    <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                    <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="width" secondItem="lvI-69-5hK" secondAttribute="height" multiplier="1:1" id="2K5-Kc-0Kk"/>
                                         <constraint firstAttribute="width" secondItem="lvI-69-5hK" secondAttribute="height" multiplier="1:1" id="WlL-AG-Ym5"/>
@@ -192,7 +192,7 @@
                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                     <state key="normal" title="0">
-                                        <color key="titleColor" systemColor="labelColor"/>
+                                        <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                     </state>
                                 </button>
                             </subviews>
@@ -202,50 +202,50 @@
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uUC-98-Z3f">
                                     <rect key="frame" x="0.0" y="0.0" width="73.333333333333329" height="73.333333333333329"/>
-                                    <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                    <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="width" secondItem="uUC-98-Z3f" secondAttribute="height" multiplier="1:1" id="hje-sH-LZM"/>
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                     <state key="normal" title="0">
-                                        <color key="titleColor" systemColor="labelColor"/>
+                                        <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                     </state>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l38-jC-j4r">
                                     <rect key="frame" x="93.333333333333343" y="0.0" width="73.333333333333343" height="73.333333333333329"/>
-                                    <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                    <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="width" secondItem="l38-jC-j4r" secondAttribute="height" multiplier="1:1" id="lzt-Vf-Jrk"/>
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                     <state key="normal" title="0">
-                                        <color key="titleColor" systemColor="labelColor"/>
+                                        <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                     </state>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ngI-Sc-gWS">
                                     <rect key="frame" x="186.66666666666666" y="0.0" width="72.999999999999972" height="73.333333333333329"/>
-                                    <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                    <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="width" secondItem="ngI-Sc-gWS" secondAttribute="height" multiplier="1:1" id="Uo7-9C-qns"/>
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                     <state key="normal" title="0">
-                                        <color key="titleColor" systemColor="labelColor"/>
+                                        <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                     </state>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kjA-Ph-usD">
                                     <rect key="frame" x="279.66666666666669" y="0.0" width="73.333333333333314" height="73.333333333333329"/>
-                                    <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                    <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="width" secondItem="kjA-Ph-usD" secondAttribute="height" multiplier="1:1" id="tCe-Yw-ic0"/>
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                     <state key="normal" title="0">
-                                        <color key="titleColor" systemColor="labelColor"/>
+                                        <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                     </state>
                                 </button>
                             </subviews>
@@ -253,45 +253,45 @@
                     </subviews>
                 </stackView>
                 <stackView opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" distribution="fillEqually" spacing="20" id="bi1-ie-S7t">
-                    <rect key="frame" x="22" y="706" width="348.99999999999989" height="132"/>
+                    <rect key="frame" x="20" y="735" width="353" height="57"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" id="PZO-BK-UqO">
-                            <rect key="frame" x="0.0" y="0.0" width="164.66666666666666" height="132"/>
+                            <rect key="frame" x="0.0" y="0.0" width="166.66666666666666" height="57"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p1C-ed-aBl">
-                                    <rect key="frame" x="0.0" y="0.0" width="164.66666666666666" height="132"/>
-                                    <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="166.66666666666666" height="57"/>
+                                    <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <fontDescription key="fontDescription" name=".SFUI-Regular" family=".AppleSystemUIFont" pointSize="34"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                     <state key="normal" title="0">
-                                        <color key="titleColor" systemColor="labelColor"/>
+                                        <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                     </state>
                                 </button>
                             </subviews>
                             <viewLayoutGuide key="safeArea" id="XUM-lr-fzA"/>
                         </stackView>
                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" id="09M-ZB-mpN">
-                            <rect key="frame" x="184.66666666666663" y="0.0" width="164.33333333333337" height="132"/>
+                            <rect key="frame" x="186.66666666666663" y="0.0" width="166.33333333333337" height="57"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h8k-3Z-RJg">
-                                    <rect key="frame" x="0.0" y="0.0" width="72.333333333333329" height="132"/>
-                                    <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="73.333333333333329" height="57"/>
+                                    <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                     <state key="normal" title="0">
-                                        <color key="titleColor" systemColor="labelColor"/>
+                                        <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                     </state>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Tp-hv-Uej">
-                                    <rect key="frame" x="92.333333333333343" y="0.0" width="72" height="132"/>
-                                    <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                    <rect key="frame" x="93.333333333333343" y="0.0" width="73" height="57"/>
+                                    <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                     <state key="normal" title="0">
-                                        <color key="titleColor" systemColor="labelColor"/>
+                                        <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                     </state>
                                 </button>
                             </subviews>
@@ -300,12 +300,22 @@
                     </subviews>
                     <viewLayoutGuide key="safeArea" id="3w8-TS-5Mh"/>
                 </stackView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gTj-AP-n9a">
+                    <rect key="frame" x="20" y="196.33333333333334" width="353" height="108.66666666666666"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="90"/>
+                    <color key="textColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                    <color key="highlightedColor" systemColor="opaqueSeparatorColor"/>
+                    <color key="shadowColor" systemColor="opaqueSeparatorColor"/>
+                </label>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="labelColor"/>
             <constraints>
+                <constraint firstItem="qf4-Ww-IMA" firstAttribute="top" secondItem="gTj-AP-n9a" secondAttribute="bottom" constant="40" id="DuC-Nd-Qqe"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="qf4-Ww-IMA" secondAttribute="trailing" constant="20" id="FYp-ZK-k0x"/>
                 <constraint firstItem="qf4-Ww-IMA" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="KyY-15-7wY"/>
+                <constraint firstItem="gTj-AP-n9a" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="NaM-bK-76L"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="gTj-AP-n9a" secondAttribute="trailing" constant="20" id="Sgj-39-eoE"/>
                 <constraint firstItem="qf4-Ww-IMA" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="286" id="a9p-Yc-iaY"/>
             </constraints>
             <point key="canvasLocation" x="90.839694656488547" y="17.605633802816904"/>
@@ -320,6 +330,9 @@
         </systemColor>
         <systemColor name="opaqueSeparatorColor">
             <color red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="secondarySystemGroupedBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>
