@@ -253,15 +253,15 @@
                     </subviews>
                 </stackView>
                 <stackView opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" distribution="fillEqually" spacing="20" id="bi1-ie-S7t">
-                    <rect key="frame" x="22" y="706" width="348.99999999999989" height="132"/>
+                    <rect key="frame" x="20" y="735" width="353" height="57"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" id="PZO-BK-UqO">
-                            <rect key="frame" x="0.0" y="0.0" width="164.66666666666666" height="132"/>
+                            <rect key="frame" x="0.0" y="0.0" width="166.66666666666666" height="57"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p1C-ed-aBl">
-                                    <rect key="frame" x="0.0" y="0.0" width="164.66666666666666" height="132"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="166.66666666666666" height="57"/>
                                     <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                     <fontDescription key="fontDescription" name=".SFUI-Regular" family=".AppleSystemUIFont" pointSize="34"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -273,11 +273,11 @@
                             <viewLayoutGuide key="safeArea" id="XUM-lr-fzA"/>
                         </stackView>
                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" id="09M-ZB-mpN">
-                            <rect key="frame" x="184.66666666666663" y="0.0" width="164.33333333333337" height="132"/>
+                            <rect key="frame" x="186.66666666666663" y="0.0" width="166.33333333333337" height="57"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h8k-3Z-RJg">
-                                    <rect key="frame" x="0.0" y="0.0" width="72.333333333333329" height="132"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="73.333333333333329" height="57"/>
                                     <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -286,7 +286,7 @@
                                     </state>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Tp-hv-Uej">
-                                    <rect key="frame" x="92.333333333333343" y="0.0" width="72" height="132"/>
+                                    <rect key="frame" x="93.333333333333343" y="0.0" width="73" height="57"/>
                                     <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
