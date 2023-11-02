@@ -17,6 +17,25 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="CALCULADORA" customModuleProvider="target">
             <connections>
+                <outlet property="Number0" destination="p1C-ed-aBl" id="I0f-eg-V0T"/>
+                <outlet property="Number1" destination="uUC-98-Z3f" id="q11-2x-mvh"/>
+                <outlet property="Number2" destination="l38-jC-j4r" id="2ce-FR-LZM"/>
+                <outlet property="Number3" destination="ngI-Sc-gWS" id="ySz-DA-ddo"/>
+                <outlet property="Number4" destination="kwl-J8-73f" id="6aR-Bj-fnH"/>
+                <outlet property="Number5" destination="R1b-7R-CgJ" id="dwD-Pr-GMO"/>
+                <outlet property="Number6" destination="Ycp-Ou-vcf" id="JHt-2c-4oQ"/>
+                <outlet property="Number7" destination="4Lg-mt-h17" id="Wap-OE-mZx"/>
+                <outlet property="Number8" destination="qkL-Ax-NhI" id="Te5-xO-gOj"/>
+                <outlet property="Number9" destination="Z88-zJ-k73" id="SNv-Pd-4GF"/>
+                <outlet property="OperatorAC" destination="HfU-ey-TpS" id="Wpd-8x-sKo"/>
+                <outlet property="OperatorAddition" destination="kjA-Ph-usD" id="TpV-Hk-d1a"/>
+                <outlet property="OperatorDivision" destination="gM3-NF-JFj" id="dBw-ab-5RM"/>
+                <outlet property="OperatorMultiplication" destination="2DF-5X-j6X" id="s54-7t-Qym"/>
+                <outlet property="OperatorPercent" destination="sMQ-UI-cQc" id="aOf-h2-rBJ"/>
+                <outlet property="OperatorPlusMinus" destination="gWi-xf-R22" id="Y3A-QP-Jqp"/>
+                <outlet property="OperatorResults" destination="0Tp-hv-Uej" id="ybp-0Z-M65"/>
+                <outlet property="OperatorSubstraction" destination="lvI-69-5hK" id="EFV-dN-3Pw"/>
+                <outlet property="resultLabel" destination="gTj-AP-n9a" id="GBl-Zo-ONv"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
