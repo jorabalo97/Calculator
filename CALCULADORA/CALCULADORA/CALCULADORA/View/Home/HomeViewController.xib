@@ -40,7 +40,7 @@
                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
                                     <color key="tintColor" name="AccentColor"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                    <state key="normal" title="0">
+                                    <state key="normal" title="AC">
                                         <color key="titleColor" systemColor="labelColor"/>
                                     </state>
                                 </button>
@@ -53,7 +53,7 @@
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                    <state key="normal" title="0">
+                                    <state key="normal" title="+/-">
                                         <color key="titleColor" systemColor="labelColor"/>
                                     </state>
                                 </button>
@@ -66,21 +66,21 @@
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                    <state key="normal" title="0">
+                                    <state key="normal" title="%">
                                         <color key="titleColor" systemColor="labelColor"/>
                                     </state>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gM3-NF-JFj">
                                     <rect key="frame" x="279.66666666666669" y="0.0" width="73.333333333333314" height="73.333333333333329"/>
-                                    <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                    <color key="backgroundColor" red="0.99607843137254903" green="0.58039215686274503" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="width" secondItem="gM3-NF-JFj" secondAttribute="height" multiplier="1:1" id="Kyk-S3-bfi"/>
                                         <constraint firstAttribute="width" secondItem="gM3-NF-JFj" secondAttribute="height" multiplier="1:1" id="X4o-ph-wYu"/>
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                    <state key="normal" title="0">
-                                        <color key="titleColor" systemColor="labelColor"/>
+                                    <state key="normal" title="/">
+                                        <color key="titleColor" systemColor="systemBackgroundColor"/>
                                     </state>
                                 </button>
                             </subviews>
@@ -96,7 +96,7 @@
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                    <state key="normal" title="0">
+                                    <state key="normal" title="7">
                                         <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                     </state>
                                 </button>
@@ -109,7 +109,7 @@
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                    <state key="normal" title="0">
+                                    <state key="normal" title="8">
                                         <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                     </state>
                                 </button>
@@ -122,20 +122,20 @@
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                    <state key="normal" title="0">
+                                    <state key="normal" title="9">
                                         <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                     </state>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2DF-5X-j6X">
                                     <rect key="frame" x="279.66666666666669" y="0.0" width="73.333333333333314" height="73.333333333333329"/>
-                                    <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" red="0.99607843137254903" green="0.58039215686274503" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="width" secondItem="2DF-5X-j6X" secondAttribute="height" multiplier="1:1" id="Zj8-CF-7sI"/>
                                         <constraint firstAttribute="width" secondItem="2DF-5X-j6X" secondAttribute="height" multiplier="1:1" id="mni-Kw-0Wn"/>
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                    <state key="normal" title="0">
+                                    <state key="normal" title="x">
                                         <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                     </state>
                                 </button>
@@ -152,7 +152,7 @@
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                    <state key="normal" title="0">
+                                    <state key="normal" title="4">
                                         <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                     </state>
                                 </button>
@@ -165,7 +165,7 @@
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                    <state key="normal" title="0">
+                                    <state key="normal" title="5">
                                         <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                     </state>
                                 </button>
@@ -178,20 +178,20 @@
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                    <state key="normal" title="0">
+                                    <state key="normal" title="6">
                                         <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                     </state>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lvI-69-5hK">
                                     <rect key="frame" x="279.66666666666669" y="0.0" width="73.333333333333314" height="73"/>
-                                    <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" red="0.99607843137254903" green="0.58039215686274503" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="width" secondItem="lvI-69-5hK" secondAttribute="height" multiplier="1:1" id="2K5-Kc-0Kk"/>
                                         <constraint firstAttribute="width" secondItem="lvI-69-5hK" secondAttribute="height" multiplier="1:1" id="WlL-AG-Ym5"/>
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                    <state key="normal" title="0">
+                                    <state key="normal" title="-">
                                         <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                     </state>
                                 </button>
@@ -208,7 +208,7 @@
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                    <state key="normal" title="0">
+                                    <state key="normal" title="1">
                                         <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                     </state>
                                 </button>
@@ -220,7 +220,7 @@
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                    <state key="normal" title="0">
+                                    <state key="normal" title="2">
                                         <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                     </state>
                                 </button>
@@ -232,19 +232,19 @@
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                    <state key="normal" title="0">
+                                    <state key="normal" title="3">
                                         <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                     </state>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kjA-Ph-usD">
                                     <rect key="frame" x="279.66666666666669" y="0.0" width="73.333333333333314" height="73.333333333333329"/>
-                                    <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" red="0.99607843137254903" green="0.58039215686274503" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="width" secondItem="kjA-Ph-usD" secondAttribute="height" multiplier="1:1" id="tCe-Yw-ic0"/>
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                    <state key="normal" title="0">
+                                    <state key="normal" title="+">
                                         <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                     </state>
                                 </button>
@@ -281,16 +281,16 @@
                                     <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                    <state key="normal" title="0">
+                                    <state key="normal" title=",">
                                         <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                     </state>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Tp-hv-Uej">
                                     <rect key="frame" x="93.333333333333343" y="0.0" width="73" height="57"/>
-                                    <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" red="0.99607843137254903" green="0.58039215686274503" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                    <state key="normal" title="0">
+                                    <state key="normal" title="=">
                                         <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                     </state>
                                 </button>
@@ -332,6 +332,9 @@
             <color red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="secondarySystemGroupedBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
