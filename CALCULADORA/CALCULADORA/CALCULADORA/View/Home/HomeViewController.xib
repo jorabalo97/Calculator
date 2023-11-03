@@ -62,6 +62,9 @@
                                     <state key="normal" title="AC">
                                         <color key="titleColor" systemColor="labelColor"/>
                                     </state>
+                                    <connections>
+                                        <action selector="operatorACAction:" destination="-1" eventType="touchUpInside" id="37S-KT-jyc"/>
+                                    </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWi-xf-R22">
                                     <rect key="frame" x="93.333333333333343" y="0.0" width="73.333333333333343" height="73.333333333333329"/>
@@ -75,6 +78,9 @@
                                     <state key="normal" title="+/-">
                                         <color key="titleColor" systemColor="labelColor"/>
                                     </state>
+                                    <connections>
+                                        <action selector="operatorPlusMinusAction:" destination="-1" eventType="touchUpInside" id="hBV-Me-LC5"/>
+                                    </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sMQ-UI-cQc">
                                     <rect key="frame" x="186.66666666666666" y="0.0" width="72.999999999999972" height="73.333333333333329"/>
@@ -88,6 +94,9 @@
                                     <state key="normal" title="%">
                                         <color key="titleColor" systemColor="labelColor"/>
                                     </state>
+                                    <connections>
+                                        <action selector="operatorPercentAction:" destination="-1" eventType="touchUpInside" id="Bur-je-7Ah"/>
+                                    </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gM3-NF-JFj">
                                     <rect key="frame" x="279.66666666666669" y="0.0" width="73.333333333333314" height="73.333333333333329"/>
@@ -101,6 +110,9 @@
                                     <state key="normal" title="/">
                                         <color key="titleColor" systemColor="systemBackgroundColor"/>
                                     </state>
+                                    <connections>
+                                        <action selector="operatorDivisionAction:" destination="-1" eventType="touchUpInside" id="J8V-5h-eII"/>
+                                    </connections>
                                 </button>
                             </subviews>
                         </stackView>
@@ -157,6 +169,9 @@
                                     <state key="normal" title="x">
                                         <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                     </state>
+                                    <connections>
+                                        <action selector="operatorMultiplicationAction:" destination="-1" eventType="touchUpInside" id="6Rb-ar-xVR"/>
+                                    </connections>
                                 </button>
                             </subviews>
                         </stackView>
@@ -213,6 +228,9 @@
                                     <state key="normal" title="-">
                                         <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                     </state>
+                                    <connections>
+                                        <action selector="operatorSubstractionAction:" destination="-1" eventType="touchUpInside" id="WQQ-dd-JpT"/>
+                                    </connections>
                                 </button>
                             </subviews>
                         </stackView>
@@ -266,6 +284,9 @@
                                     <state key="normal" title="+">
                                         <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                     </state>
+                                    <connections>
+                                        <action selector="operatorAdditionAction:" destination="-1" eventType="touchUpInside" id="v1e-Td-R5K"/>
+                                    </connections>
                                 </button>
                             </subviews>
                         </stackView>
@@ -287,6 +308,9 @@
                                     <state key="normal" title="0">
                                         <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                     </state>
+                                    <connections>
+                                        <action selector="numberAction:" destination="-1" eventType="touchUpInside" id="9yf-62-pzu"/>
+                                    </connections>
                                 </button>
                             </subviews>
                             <viewLayoutGuide key="safeArea" id="XUM-lr-fzA"/>
@@ -303,6 +327,9 @@
                                     <state key="normal" title=",">
                                         <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                     </state>
+                                    <connections>
+                                        <action selector="operatorDecimalAction:" destination="-1" eventType="touchUpInside" id="GUH-LN-eDq"/>
+                                    </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Tp-hv-Uej">
                                     <rect key="frame" x="93.333333333333343" y="0.0" width="73" height="57"/>
@@ -312,6 +339,9 @@
                                     <state key="normal" title="=">
                                         <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                     </state>
+                                    <connections>
+                                        <action selector="operatorResultAction:" destination="-1" eventType="touchUpInside" id="G6i-On-ymF"/>
+                                    </connections>
                                 </button>
                             </subviews>
                             <viewLayoutGuide key="safeArea" id="aLs-LF-ZYV"/>

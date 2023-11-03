@@ -72,7 +72,37 @@ final class HomeViewController: UIViewController {
         
         // Do any additional setup after loading the view.
     }
-
-
-
+// MARK: -Button Acctions
+    
+    @IBAction func operatorResultAction(_ sender: UIButton) {
+        sender.shine()
+    }
+    
+    @IBAction func operatorAdditionAction(_ sender: Any) {
+    }
+    
+    @IBAction func operatorSubstractionAction(_ sender: Any) {
+    }
+    
+    @IBAction func operatorMultiplicationAction(_ sender: Any) {
+    }
+    
+    @IBAction func operatorDivisionAction(_ sender: Any) {
+    }
+    
+    @IBAction func operatorPercentAction(_ sender: Any) {
+    }
+    
+    @IBAction func operatorPlusMinusAction(_ sender: Any) {
+    }
+    
+    @IBAction func operatorACAction(_ sender: Any) {
+    }
+    
+    @IBAction func operatorDecimalAction(_ sender: Any) {
+    }
+    
+    @IBAction func numberAction(_ sender: Any) {
+    }
+    
 }
