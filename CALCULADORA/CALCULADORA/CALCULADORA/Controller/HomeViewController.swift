@@ -59,6 +59,16 @@ final class HomeViewController: UIViewController {
         Number7.round()
         Number8.round()
         Number9.round()
+   
+        
+               OperatorAC.round()
+               OperatorPlusMinus.round()
+               OperatorPercent.round()
+               OperatorResults.round()
+               OperatorAddition.round()
+               OperatorSubstraction.round()
+               OperatorMultiplication.round()
+               OperatorDivision.round()
         
         // Do any additional setup after loading the view.
     }
