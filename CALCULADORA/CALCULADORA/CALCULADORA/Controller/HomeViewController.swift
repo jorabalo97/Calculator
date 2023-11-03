@@ -84,10 +84,6 @@ final class HomeViewController: UIViewController {
         return formatter
     }()
     
-    
-
-
-    
     init(){
         super.init(nibName: nil, bundle: nil)
     }
