@@ -9,7 +9,11 @@ import UIKit
 
 final class HomeViewController: UIViewController {
     //MARK:-Outlets
+    
+    
     //Number
+    
+    @IBOutlet weak var NumberDecimal: UIButton!
     @IBOutlet weak var Number9: UIButton!
     @IBOutlet weak var Number8: UIButton!
     @IBOutlet weak var Number7: UIButton!
@@ -21,7 +25,9 @@ final class HomeViewController: UIViewController {
     @IBOutlet weak var Number1: UIButton!
     @IBOutlet weak var resultLabel: UILabel!
     
-    @IBOutlet weak var numberDecimal: UIButton!
+    
+    
+    
     // Operators
     @IBOutlet weak var OperatorDivision: UIButton!
     @IBOutlet weak var OperatorMultiplication: UIButton!
@@ -31,37 +37,54 @@ final class HomeViewController: UIViewController {
     @IBOutlet weak var OperatorPercent: UIButton!
     @IBOutlet weak var OperatorPlusMinus: UIButton!
     
-    @IBOutlet weak var OperatorDecimal: UIButton!
     @IBOutlet weak var OperatorAC: UIButton!
+    //Mark: -Initialization
     
     @IBOutlet weak var Number0: UIButton!
     
-    //MARK:-Variables
+    // MARK: - Variables
     
     private var total : Double = 0 // Total
-    private var temp: Double = 0// Valor por pantalla
+    private var temp : Double = 0 // Valor por pantalla
     private var operating = false // Indicar si se ha seleccionado un operador
     private var decimal = false // Indicar si el valor es decimal
-    private var operation: OperationType = .none // Operacion actual
+    private var operation : OperationType = .none // Operacion actual
     
     
+    // Constantes
     
-    //MARK:-Constantes
-    
-    
-    private let KDecimalSeparatos = Locale.current.decimalSeparator
+    private let kDecimalSeparators = Locale.current.decimalSeparator
     private let KMaxLength = 9
     private let KMaxValue:Double = 999999999
-    private let KMinValuue:Double = 0.0000001
+    private let KMinValue:Double = 0.00000001
     private enum OperationType{
-        case none, addiction, substraction, multiplication, division,percent
-        
+        case none, addiction, substraction, multiplication, division, percent
     }
     
+    // Formateo de valores auxiliar
     
+    private let auxFormatter: NumberFormatter = {
+        let formatter = NumberFormatter()
+        let locale = Locale.current
+        formatter.groupingSeparator = ""
+        formatter.decimalSeparator = locale.decimalSeparator
+        formatter.numberStyle = .decimal
+        return formatter
+    }()
     
-    //Mark: -Initialization
+    // Formateo de valores por pantalla por defecto
     
+    private let printFormatter: NumberFormatter = {
+        let formatter = NumberFormatter()
+        let locale = Locale.current
+        formatter.groupingSeparator = locale.groupingSeparator
+        formatter.decimalSeparator = locale.decimalSeparator
+        formatter.numberStyle = .decimal
+        formatter.maximumFractionDigits = 9
+        formatter.minimumFractionDigits = 0
+        formatter.maximumFractionDigits = 8
+        return formatter
+    }()
     
     init(){
         super.init(nibName: nil, bundle: nil)
@@ -73,8 +96,6 @@ final class HomeViewController: UIViewController {
     // Mark: -Lyfe Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        //UI
         Number0.round()
         Number1.round()
         Number2.round()
@@ -85,8 +106,10 @@ final class HomeViewController: UIViewController {
         Number7.round()
         Number8.round()
         Number9.round()
-        numberDecimal.round()
-    
+        NumberDecimal.round()
+        
+        
+        
         OperatorAC.round()
         OperatorPlusMinus.round()
         OperatorPercent.round()
@@ -96,23 +119,27 @@ final class HomeViewController: UIViewController {
         OperatorMultiplication.round()
         OperatorDivision.round()
         
-        // Do any additional setup after loading the view.
+        NumberDecimal.setTitle(kDecimalSeparators, for: .normal)
+        
     }
-    
-//MARK:-Button Acctions
+    // MARK: -Button Acctions
     
     @IBAction func operatorResultAction(_ sender: UIButton) {
         sender.shine()
     }
+    
     @IBAction func operatorAdditionAction(_ sender: UIButton) {
         sender.shine()
     }
+    
     @IBAction func operatorSubstractionAction(_ sender: UIButton) {
         sender.shine()
     }
+    
     @IBAction func operatorMultiplicationAction(_ sender: UIButton) {
         sender.shine()
     }
+    
     @IBAction func operatorDivisionAction(_ sender: UIButton) {
         sender.shine()
     }
@@ -120,11 +147,10 @@ final class HomeViewController: UIViewController {
     @IBAction func operatorPercentAction(_ sender: UIButton) {
         sender.shine()
     }
-   
+    
     @IBAction func operatorPlusMinusAction(_ sender: UIButton) {
         sender.shine()
     }
-    
     
     @IBAction func operatorACAction(_ sender: UIButton) {
         sender.shine()
@@ -137,6 +163,39 @@ final class HomeViewController: UIViewController {
     @IBAction func numberAction(_ sender: UIButton) {
         sender.shine()
         print(sender.tag)
+        
+        private func clear() {
+            operation = .none
+            OperatorAC.setTitle("AC",for: .normal)
+            if temp ≠ 0{
+                temp = 0
+                resultLabel.text = "0"
+            }else{
+                total = 0
+                result()
+            }
+        }
+        private func result(){
+            switch operation{
+            case .none:
+                
+                break
+            case .addiction:
+                break
+            case .substraction:
+                break
+            case .multiplication:
+                break
+            case .division:
+                break
+            case .percent:
+                break
+            }
+            
+            
+            
+        }
+        
     }
-    
 }
+
