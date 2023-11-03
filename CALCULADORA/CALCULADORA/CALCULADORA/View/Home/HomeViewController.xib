@@ -27,6 +27,7 @@
                 <outlet property="Number7" destination="4Lg-mt-h17" id="Wap-OE-mZx"/>
                 <outlet property="Number8" destination="qkL-Ax-NhI" id="Te5-xO-gOj"/>
                 <outlet property="Number9" destination="Z88-zJ-k73" id="SNv-Pd-4GF"/>
+                <outlet property="NumberDecimal" destination="h8k-3Z-RJg" id="t0R-DD-Mly"/>
                 <outlet property="OperatorAC" destination="HfU-ey-TpS" id="Wpd-8x-sKo"/>
                 <outlet property="OperatorAddition" destination="kjA-Ph-usD" id="TpV-Hk-d1a"/>
                 <outlet property="OperatorDivision" destination="gM3-NF-JFj" id="dBw-ab-5RM"/>

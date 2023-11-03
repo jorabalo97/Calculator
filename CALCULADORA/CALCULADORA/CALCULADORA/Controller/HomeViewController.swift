@@ -12,6 +12,8 @@ final class HomeViewController: UIViewController {
     
     
     //Number
+    
+    @IBOutlet weak var NumberDecimal: UIButton!
     @IBOutlet weak var Number9: UIButton!
     @IBOutlet weak var Number8: UIButton!
     @IBOutlet weak var Number7: UIButton!
@@ -62,13 +64,13 @@ final class HomeViewController: UIViewController {
     // Formateo de valores auxiliar
     
     private let auxFormatter: NumberFormatter = {
-    let formatter = NumberFormatter()
-    let locale = Locale.current
-    formatter.groupingSeparator = ""
-    formatter.decimalSeparator = locale.decimalSeparator
-    formatter.numberStyle = .decimal
-    return formatter
-}()
+        let formatter = NumberFormatter()
+        let locale = Locale.current
+        formatter.groupingSeparator = ""
+        formatter.decimalSeparator = locale.decimalSeparator
+        formatter.numberStyle = .decimal
+        return formatter
+    }()
     
     // Formateo de valores por pantalla por defecto
     
@@ -104,20 +106,23 @@ final class HomeViewController: UIViewController {
         Number7.round()
         Number8.round()
         Number9.round()
-   
+        NumberDecimal.round()
         
-               OperatorAC.round()
-               OperatorPlusMinus.round()
-               OperatorPercent.round()
-               OperatorResults.round()
-               OperatorAddition.round()
-               OperatorSubstraction.round()
-               OperatorMultiplication.round()
-               OperatorDivision.round()
         
-        // Do any additional setup after loading the view.
+        
+        OperatorAC.round()
+        OperatorPlusMinus.round()
+        OperatorPercent.round()
+        OperatorResults.round()
+        OperatorAddition.round()
+        OperatorSubstraction.round()
+        OperatorMultiplication.round()
+        OperatorDivision.round()
+        
+        NumberDecimal.setTitle(kDecimalSeparators, for: .normal)
+        
     }
-// MARK: -Button Acctions
+    // MARK: -Button Acctions
     
     @IBAction func operatorResultAction(_ sender: UIButton) {
         sender.shine()
@@ -159,7 +164,38 @@ final class HomeViewController: UIViewController {
         sender.shine()
         print(sender.tag)
         
+        private func clear() {
+            operation = .none
+            OperatorAC.setTitle("AC",for: .normal)
+            if temp ≠ 0{
+                temp = 0
+                resultLabel.text = "0"
+            }else{
+                total = 0
+                result()
+            }
+        }
+        private func result(){
+            switch operation{
+            case .none:
+                
+                break
+            case .addiction:
+                break
+            case .substraction:
+                break
+            case .multiplication:
+                break
+            case .division:
+                break
+            case .percent:
+                break
+            }
+            
+            
+            
+        }
         
     }
-
 }
+
