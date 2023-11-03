@@ -78,31 +78,40 @@ final class HomeViewController: UIViewController {
         sender.shine()
     }
     
-    @IBAction func operatorAdditionAction(_ sender: Any) {
+    @IBAction func operatorAdditionAction(_ sender: UIButton) {
+        sender.shine()
     }
     
-    @IBAction func operatorSubstractionAction(_ sender: Any) {
+    @IBAction func operatorSubstractionAction(_ sender: UIButton) {
+        sender.shine()
     }
     
-    @IBAction func operatorMultiplicationAction(_ sender: Any) {
+    @IBAction func operatorMultiplicationAction(_ sender: UIButton) {
+        sender.shine()
     }
     
-    @IBAction func operatorDivisionAction(_ sender: Any) {
+    @IBAction func operatorDivisionAction(_ sender: UIButton) {
+        sender.shine()
     }
     
-    @IBAction func operatorPercentAction(_ sender: Any) {
+    @IBAction func operatorPercentAction(_ sender: UIButton) {
+        sender.shine()
     }
     
-    @IBAction func operatorPlusMinusAction(_ sender: Any) {
+    @IBAction func operatorPlusMinusAction(_ sender: UIButton) {
+        sender.shine()
     }
     
-    @IBAction func operatorACAction(_ sender: Any) {
+    @IBAction func operatorACAction(_ sender: UIButton) {
+        sender.shine()
     }
     
-    @IBAction func operatorDecimalAction(_ sender: Any) {
+    @IBAction func operatorDecimalAction(_ sender: UIButton) {
+        sender.shine()
     }
     
-    @IBAction func numberAction(_ sender: Any) {
+    @IBAction func numberAction(_ sender: UIButton) {
+        sender.shine()
     }
     
 }
