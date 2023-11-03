@@ -23,7 +23,7 @@ final class HomeViewController: UIViewController {
     @IBOutlet weak var Number1: UIButton!
     @IBOutlet weak var resultLabel: UILabel!
     
-   
+    
     
     
     // Operators
@@ -59,6 +59,34 @@ final class HomeViewController: UIViewController {
         case none, addiction, substraction, multiplication, division, percent
     }
     
+    // Formateo de valores auxiliar
+    
+    private let auxFormatter: NumberFormatter = {
+    let formatter = NumberFormatter()
+    let locale = Locale.current
+    formatter.groupingSeparator = ""
+    formatter.decimalSeparator = locale.decimalSeparator
+    formatter.numberStyle = .decimal
+    return formatter
+}()
+    
+    // Formateo de valores por pantalla por defecto
+    
+    private let printFormatter: NumberFormatter = {
+        let formatter = NumberFormatter()
+        let locale = Locale.current
+        formatter.groupingSeparator = locale.groupingSeparator
+        formatter.decimalSeparator = locale.decimalSeparator
+        formatter.numberStyle = .decimal
+        formatter.maximumFractionDigits = 9
+        formatter.minimumFractionDigits = 0
+        formatter.maximumFractionDigits = 8
+        return formatter
+    }()
+    
+    
+
+
     
     init(){
         super.init(nibName: nil, bundle: nil)

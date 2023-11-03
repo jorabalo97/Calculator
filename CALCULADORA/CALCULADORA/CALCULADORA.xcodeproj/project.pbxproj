@@ -142,7 +142,6 @@
 			isa = PBXGroup;
 			children = (
 				B1F5070C2AF3900300834846 /* HomeViewController.swift */,
-				B1F5070B2AF38FC400834846 /* Home */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -182,6 +181,7 @@
 		B1F5070A2AF38FB900834846 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				B1F5070B2AF38FC400834846 /* Home */,
 				B1F5070D2AF3900300834846 /* HomeViewController.xib */,
 			);
 			path = Home;
