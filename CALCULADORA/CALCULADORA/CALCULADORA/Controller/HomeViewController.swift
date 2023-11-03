@@ -39,6 +39,27 @@ final class HomeViewController: UIViewController {
     //Mark: -Initialization
     
     @IBOutlet weak var Number0: UIButton!
+    
+    // MARK: - Variables
+    
+    private var total : Double = 0 // Total
+    private var temp : Double = 0 // Valor por pantalla
+    private var operating = false // Indicar si se ha seleccionado un operador
+    private var decimal = false // Indicar si el valor es decimal
+    private var operation : OperationType = .none // Operacion actual
+    
+    
+    // Constantes
+    
+    private let kDecimalSeparators = Locale.current.decimalSeparator
+    private let KMaxLength = 9
+    private let KMaxValue:Double = 999999999
+    private let KMinValue:Double = 0.00000001
+    private enum OperationType{
+        case none, addiction, substraction, multiplication, division, percent
+    }
+    
+    
     init(){
         super.init(nibName: nil, bundle: nil)
     }
@@ -112,6 +133,9 @@ final class HomeViewController: UIViewController {
     
     @IBAction func numberAction(_ sender: UIButton) {
         sender.shine()
+        print(sender.tag)
+        
+        
     }
-    
+
 }
