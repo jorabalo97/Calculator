@@ -23,6 +23,9 @@ final class HomeViewController: UIViewController {
     @IBOutlet weak var Number1: UIButton!
     @IBOutlet weak var resultLabel: UILabel!
     
+   
+    
+    
     // Operators
     @IBOutlet weak var OperatorDivision: UIButton!
     @IBOutlet weak var OperatorMultiplication: UIButton!
@@ -46,7 +49,17 @@ final class HomeViewController: UIViewController {
     // Mark: -Lyfe Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        Number0.round()
+        Number1.round()
+        Number2.round()
+        Number3.round()
+        Number4.round()
+        Number5.round()
+        Number6.round()
+        Number7.round()
+        Number8.round()
+        Number9.round()
+        
         // Do any additional setup after loading the view.
     }
 
