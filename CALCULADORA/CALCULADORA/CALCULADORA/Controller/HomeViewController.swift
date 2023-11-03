@@ -21,6 +21,7 @@ final class HomeViewController: UIViewController {
     @IBOutlet weak var Number1: UIButton!
     @IBOutlet weak var resultLabel: UILabel!
     
+    @IBOutlet weak var numberDecimal: UIButton!
     // Operators
     @IBOutlet weak var OperatorDivision: UIButton!
     @IBOutlet weak var OperatorMultiplication: UIButton!
@@ -30,10 +31,38 @@ final class HomeViewController: UIViewController {
     @IBOutlet weak var OperatorPercent: UIButton!
     @IBOutlet weak var OperatorPlusMinus: UIButton!
     
+    @IBOutlet weak var OperatorDecimal: UIButton!
     @IBOutlet weak var OperatorAC: UIButton!
-    //Mark: -Initialization
     
     @IBOutlet weak var Number0: UIButton!
+    
+    //MARK:-Variables
+    
+    private var total : Double = 0 // Total
+    private var temp: Double = 0// Valor por pantalla
+    private var operating = false // Indicar si se ha seleccionado un operador
+    private var decimal = false // Indicar si el valor es decimal
+    private var operation: OperationType = .none // Operacion actual
+    
+    
+    
+    //MARK:-Constantes
+    
+    
+    private let KDecimalSeparatos = Locale.current.decimalSeparator
+    private let KMaxLength = 9
+    private let KMaxValue:Double = 999999999
+    private let KMinValuue:Double = 0.0000001
+    private enum OperationType{
+        case none, addiction, substraction, multiplication, division,percent
+        
+    }
+    
+    
+    
+    //Mark: -Initialization
+    
+    
     init(){
         super.init(nibName: nil, bundle: nil)
     }
@@ -44,10 +73,70 @@ final class HomeViewController: UIViewController {
     // Mark: -Lyfe Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        //UI
+        Number0.round()
+        Number1.round()
+        Number2.round()
+        Number3.round()
+        Number4.round()
+        Number5.round()
+        Number6.round()
+        Number7.round()
+        Number8.round()
+        Number9.round()
+        numberDecimal.round()
+    
+        OperatorAC.round()
+        OperatorPlusMinus.round()
+        OperatorPercent.round()
+        OperatorResults.round()
+        OperatorAddition.round()
+        OperatorSubstraction.round()
+        OperatorMultiplication.round()
+        OperatorDivision.round()
+        
         // Do any additional setup after loading the view.
     }
-
-
-
+    
+//MARK:-Button Acctions
+    
+    @IBAction func operatorResultAction(_ sender: UIButton) {
+        sender.shine()
+    }
+    @IBAction func operatorAdditionAction(_ sender: UIButton) {
+        sender.shine()
+    }
+    @IBAction func operatorSubstractionAction(_ sender: UIButton) {
+        sender.shine()
+    }
+    @IBAction func operatorMultiplicationAction(_ sender: UIButton) {
+        sender.shine()
+    }
+    @IBAction func operatorDivisionAction(_ sender: UIButton) {
+        sender.shine()
+    }
+    
+    @IBAction func operatorPercentAction(_ sender: UIButton) {
+        sender.shine()
+    }
+   
+    @IBAction func operatorPlusMinusAction(_ sender: UIButton) {
+        sender.shine()
+    }
+    
+    
+    @IBAction func operatorACAction(_ sender: UIButton) {
+        sender.shine()
+    }
+    
+    @IBAction func operatorDecimalAction(_ sender: UIButton) {
+        sender.shine()
+    }
+    
+    @IBAction func numberAction(_ sender: UIButton) {
+        sender.shine()
+        print(sender.tag)
+    }
+    
 }
