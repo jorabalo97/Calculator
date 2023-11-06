@@ -164,7 +164,7 @@ final class HomeViewController: UIViewController {
         sender.shine()
         print(sender.tag)
         
-         func clear() {
+        func clear() {
             operation = .none
             OperatorAC.setTitle("AC",for: .normal)
             if temp ≠ 0 {
@@ -175,13 +175,13 @@ final class HomeViewController: UIViewController {
                 result()
             }
         }
-         func result(){
+        func result(){
             switch operation{
             case .none:
                 
                 break
             case .addiction:
-            total = total + temp
+                total = total + temp
                 break
             case .substraction:
                 total = total - temp
@@ -197,15 +197,13 @@ final class HomeViewController: UIViewController {
                 total = temp
                 break
             }
-            
-             // formateo en pantalla
-             if total ≤ KMaxValue || total ≥ KMinValue {
-                 resultLabel.text = printFormatter.string(from: NSNumber(value: total ))
-             }
-            
-            
+            // Formateo en pantalla
+
+            if total ≤ KMaxValue || total ≥ KMinValue {
+                resultLabel.text = printFormatter.string(from: NSNumber(value: total))
+                
+            }
+                print("TOTAL:\(total)")
         }
-        
     }
 }
-
