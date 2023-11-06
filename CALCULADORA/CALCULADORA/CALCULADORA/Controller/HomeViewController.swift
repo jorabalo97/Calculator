@@ -133,6 +133,9 @@ final class HomeViewController: UIViewController {
     }
     
     @IBAction func operatorAdditionAction(_ sender: UIButton) {
+        result()
+        operating = true
+        operation = .addiction
         sender.shine()
     }
     
@@ -149,7 +152,12 @@ final class HomeViewController: UIViewController {
     }
     
     @IBAction func operatorPercentAction(_ sender: UIButton) {
-        
+        if operation ≠ .percent {
+            result()
+        }
+        operating = true
+        operation = .percent
+        result()
         sender.shine()
     }
     
