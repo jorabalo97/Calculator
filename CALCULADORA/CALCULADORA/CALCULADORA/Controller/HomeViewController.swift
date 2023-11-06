@@ -164,10 +164,10 @@ final class HomeViewController: UIViewController {
         sender.shine()
         print(sender.tag)
         
-        private func clear() {
+         func clear() {
             operation = .none
             OperatorAC.setTitle("AC",for: .normal)
-            if temp ≠ 0{
+            if temp ≠ 0 {
                 temp = 0
                 resultLabel.text = "0"
             }else{
@@ -175,20 +175,26 @@ final class HomeViewController: UIViewController {
                 result()
             }
         }
-        private func result(){
+         func result(){
             switch operation{
             case .none:
                 
                 break
             case .addiction:
+            total = total + temp
                 break
             case .substraction:
+                total = total - temp
                 break
             case .multiplication:
+                total = total * temp
                 break
             case .division:
+                total = total / temp
                 break
             case .percent:
+                temp = temp / 100
+                total = temp
                 break
             }
             
