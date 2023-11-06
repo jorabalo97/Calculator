@@ -96,6 +96,7 @@ final class HomeViewController: UIViewController {
     // Mark: -Lyfe Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        // UI
         Number0.round()
         Number1.round()
         Number2.round()
@@ -121,6 +122,9 @@ final class HomeViewController: UIViewController {
         
         NumberDecimal.setTitle(kDecimalSeparators, for: .normal)
         
+        result()
+        
+    
     }
     // MARK: -Button Acctions
     
@@ -145,15 +149,20 @@ final class HomeViewController: UIViewController {
     }
     
     @IBAction func operatorPercentAction(_ sender: UIButton) {
+        
         sender.shine()
     }
     
     @IBAction func operatorPlusMinusAction(_ sender: UIButton) {
+        temp = temp * (-1)
+        resultLabel.text = printFormatter.string(from: NSNumber(value: temp))
         sender.shine()
     }
     
     @IBAction func operatorACAction(_ sender: UIButton) {
+        clear()
         sender.shine()
+        
     }
     
     @IBAction func operatorDecimalAction(_ sender: UIButton) {
