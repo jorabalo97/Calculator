@@ -181,14 +181,20 @@ final class HomeViewController: UIViewController {
                 
                 break
             case .addiction:
+            total = total + temp
                 break
             case .substraction:
+                total = total - temp
                 break
             case .multiplication:
+                total = total * temp
                 break
             case .division:
+                total = total / temp
                 break
             case .percent:
+                temp = temp / 100
+                total = temp
                 break
             }
             
