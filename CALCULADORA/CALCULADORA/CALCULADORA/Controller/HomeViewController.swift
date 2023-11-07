@@ -10,6 +10,8 @@ import UIKit
 final class HomeViewController: UIViewController {
     //MARK:-Outlets
     
+    // Result
+    @IBOutlet weak var resultLabel : UILabel!
     
     //Number
     
@@ -23,7 +25,8 @@ final class HomeViewController: UIViewController {
     @IBOutlet weak var Number3: UIButton!
     @IBOutlet weak var Number2: UIButton!
     @IBOutlet weak var Number1: UIButton!
-    @IBOutlet weak var resultLabel: UILabel!
+    @IBOutlet weak var Number0: UIButton!
+    
     
     
     
@@ -33,14 +36,14 @@ final class HomeViewController: UIViewController {
     @IBOutlet weak var OperatorMultiplication: UIButton!
     @IBOutlet weak var OperatorSubstraction: UIButton!
     @IBOutlet weak var OperatorAddition: UIButton!
-    @IBOutlet weak var OperatorResults: UIButton!
+    @IBOutlet weak var OperatorResult: UIButton!
     @IBOutlet weak var OperatorPercent: UIButton!
     @IBOutlet weak var OperatorPlusMinus: UIButton!
     
     @IBOutlet weak var OperatorAC: UIButton!
     //Mark: -Initialization
     
-    @IBOutlet weak var Number0: UIButton!
+    
     
     // MARK: - Variables
     
@@ -85,6 +88,7 @@ final class HomeViewController: UIViewController {
         formatter.maximumFractionDigits = 8
         return formatter
     }()
+    // Initialization
     
     init(){
         super.init(nibName: nil, bundle: nil)
@@ -114,7 +118,7 @@ final class HomeViewController: UIViewController {
         OperatorAC.round()
         OperatorPlusMinus.round()
         OperatorPercent.round()
-        OperatorResults.round()
+        OperatorResult.round()
         OperatorAddition.round()
         OperatorSubstraction.round()
         OperatorMultiplication.round()
@@ -124,18 +128,22 @@ final class HomeViewController: UIViewController {
         
         result()
         
-    
+        
     }
     // MARK: -Button Acctions
     
     @IBAction func operatorResultAction(_ sender: UIButton) {
+        result()
         sender.shine()
     }
     
     @IBAction func operatorAdditionAction(_ sender: UIButton) {
-        result()
+        if operation != .none {
+            result()
+        }
         operating = true
         operation = .addiction
+        
         sender.shine()
     }
     
@@ -152,7 +160,7 @@ final class HomeViewController: UIViewController {
     }
     
     @IBAction func operatorPercentAction(_ sender: UIButton) {
-        if operation ≠ .percent {
+        if operation != .percent {
             result()
         }
         operating = true
@@ -180,11 +188,13 @@ final class HomeViewController: UIViewController {
     @IBAction func numberAction(_ sender: UIButton) {
         sender.shine()
         print(sender.tag)
-        
-        func clear() {
+    }
+        // Limpiar valores
+    
+       private  func clear() {
             operation = .none
             OperatorAC.setTitle("AC",for: .normal)
-            if temp ≠ 0 {
+            if temp != 0 {
                 temp = 0
                 resultLabel.text = "0"
             }else{
@@ -192,7 +202,8 @@ final class HomeViewController: UIViewController {
                 result()
             }
         }
-        func result(){
+        // Obtiene el resultado final
+       private  func result(){
             switch operation{
             case .none:
                 
@@ -223,4 +234,4 @@ final class HomeViewController: UIViewController {
                 print("TOTAL:\(total)")
         }
     }
-}
+
