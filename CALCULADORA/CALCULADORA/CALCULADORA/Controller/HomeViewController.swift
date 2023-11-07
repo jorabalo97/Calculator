@@ -204,15 +204,32 @@ final class HomeViewController: UIViewController {
         sender.shine()
     }
     @IBAction func numberAction(_ sender: UIButton) {
-        sender.shine()
+       
         OperatorAC.setTitle("C", for: .normal)
         
-        let currentTempo = auxFormatter.string(from: NSNumber(value: temp))!
-        if !operating && currentTempo.count >= KMaxLength {
+        var currentTemp = auxFormatter.string(from: NSNumber(value: temp))!
+        if !operating && currentTemp.count >= KMaxLength {
             return
         }
-        print(sender.tag)
-    }
+        // Hemos seleccionado una operacion
+        if operating {
+            total = total == 0 ? temp : total
+            resultLabel.text = ""
+            currentTemp = ""
+            operating = false
+        }
+        // Hemos seleccionado decimales
+        if decimal {
+            currentTemp = "\(currentTemp)\(kDecimalSeparators)"
+            decimal = false
+        }
+        let number = sender.tag
+        temp = Double((currentTemp) + String(number))!
+        resultLabel.text = printFormatter.string(from: NSNumber(value: temp))!
+        
+        sender.shine()
+      }
+                                                 
         // Limpiar valores
     
        private  func clear() {
