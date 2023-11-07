@@ -148,14 +148,23 @@ final class HomeViewController: UIViewController {
     }
     
     @IBAction func operatorSubstractionAction(_ sender: UIButton) {
+        result()
+        operating = true
+        operation = .substraction
         sender.shine()
     }
     
     @IBAction func operatorMultiplicationAction(_ sender: UIButton) {
+        result()
+        operating = true
+        operation = .multiplication
         sender.shine()
     }
     
     @IBAction func operatorDivisionAction(_ sender: UIButton) {
+        result()
+        operating = true
+        operation = .division
         sender.shine()
     }
     
@@ -185,8 +194,23 @@ final class HomeViewController: UIViewController {
         sender.shine()
     }
     
+    @IBAction func numberDecimalAction(_ sender: UIButton) {
+        let currentTemp = auxFormatter.string(from: NSNumber(value: temp))!
+        if !operating && currentTemp.count >= KMaxLength{
+            return
+        }
+        resultLabel.text = resultLabel.text! + kDecimalSeparators!
+        decimal = true
+        sender.shine()
+    }
     @IBAction func numberAction(_ sender: UIButton) {
         sender.shine()
+        OperatorAC.setTitle("C", for: .normal)
+        
+        let currentTempo = auxFormatter.string(from: NSNumber(value: temp))!
+        if !operating && currentTempo.count >= KMaxLength {
+            return
+        }
         print(sender.tag)
     }
         // Limpiar valores

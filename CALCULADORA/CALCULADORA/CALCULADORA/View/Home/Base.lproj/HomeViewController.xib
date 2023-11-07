@@ -329,6 +329,7 @@
                                         <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                     </state>
                                     <connections>
+                                        <action selector="numberDecimalAction:" destination="-1" eventType="touchUpInside" id="F4S-ZB-Phc"/>
                                         <action selector="operatorDecimalAction:" destination="-1" eventType="touchUpInside" id="GUH-LN-eDq"/>
                                     </connections>
                                 </button>
