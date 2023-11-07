@@ -227,7 +227,7 @@ final class HomeViewController: UIViewController {
             }
             // Formateo en pantalla
 
-            if total ≤ KMaxValue || total ≥ KMinValue {
+            if total <= KMaxValue || total >= KMinValue {
                 resultLabel.text = printFormatter.string(from: NSNumber(value: total))
                 
             }
