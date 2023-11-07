@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B15E7D5F2AFA55E600D6933A /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B15E7D612AFA55E600D6933A /* HomeViewController.xib */; };
 		B1F506D52AF38BDE00834846 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F506D42AF38BDE00834846 /* AppDelegate.swift */; };
 		B1F506D72AF38BDE00834846 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F506D62AF38BDE00834846 /* SceneDelegate.swift */; };
 		B1F506DE2AF38BDF00834846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1F506DD2AF38BDF00834846 /* Assets.xcassets */; };
@@ -15,7 +16,6 @@
 		B1F506F62AF38BDF00834846 /* CALCULADORAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F506F52AF38BDF00834846 /* CALCULADORAUITests.swift */; };
 		B1F506F82AF38BDF00834846 /* CALCULADORAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F506F72AF38BDF00834846 /* CALCULADORAUITestsLaunchTests.swift */; };
 		B1F5070E2AF3900300834846 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F5070C2AF3900300834846 /* HomeViewController.swift */; };
-		B1F5070F2AF3900300834846 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1F5070D2AF3900300834846 /* HomeViewController.xib */; };
 		B1F507182AF4ED9800834846 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F507172AF4ED9800834846 /* UIButtonExtension.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B15E7D602AFA55E600D6933A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/HomeViewController.xib; sourceTree = "<group>"; };
 		B1F506D12AF38BDD00834846 /* CALCULADORA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CALCULADORA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1F506D42AF38BDE00834846 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1F506D62AF38BDE00834846 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,7 +50,6 @@
 		B1F506F52AF38BDF00834846 /* CALCULADORAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALCULADORAUITests.swift; sourceTree = "<group>"; };
 		B1F506F72AF38BDF00834846 /* CALCULADORAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALCULADORAUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B1F5070C2AF3900300834846 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
-		B1F5070D2AF3900300834846 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		B1F507172AF4ED9800834846 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -182,7 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				B1F5070B2AF38FC400834846 /* Home */,
-				B1F5070D2AF3900300834846 /* HomeViewController.xib */,
+				B15E7D612AFA55E600D6933A /* HomeViewController.xib */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -300,7 +300,7 @@
 			files = (
 				B1F506E12AF38BDF00834846 /* LaunchScreen.storyboard in Resources */,
 				B1F506DE2AF38BDF00834846 /* Assets.xcassets in Resources */,
-				B1F5070F2AF3900300834846 /* HomeViewController.xib in Resources */,
+				B15E7D5F2AFA55E600D6933A /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +365,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		B15E7D612AFA55E600D6933A /* HomeViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B15E7D602AFA55E600D6933A /* Base */,
+			);
+			name = HomeViewController.xib;
+			sourceTree = "<group>";
+		};
 		B1F506DF2AF38BDF00834846 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
