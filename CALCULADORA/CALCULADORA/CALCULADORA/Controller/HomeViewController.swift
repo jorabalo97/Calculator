@@ -128,11 +128,12 @@ final class HomeViewController: UIViewController {
         
         result()
         
-    
+        
     }
     // MARK: -Button Acctions
     
     @IBAction func operatorResultAction(_ sender: UIButton) {
+        result()
         sender.shine()
     }
     
@@ -187,7 +188,7 @@ final class HomeViewController: UIViewController {
     @IBAction func numberAction(_ sender: UIButton) {
         sender.shine()
         print(sender.tag)
-        
+    }
         // Limpiar valores
     
        private  func clear() {
@@ -233,4 +234,4 @@ final class HomeViewController: UIViewController {
                 print("TOTAL:\(total)")
         }
     }
-}
+
