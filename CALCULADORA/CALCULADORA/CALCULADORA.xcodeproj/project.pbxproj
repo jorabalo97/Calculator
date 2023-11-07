@@ -48,7 +48,7 @@
 		B1F506F12AF38BDF00834846 /* CALCULADORAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CALCULADORAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1F506F52AF38BDF00834846 /* CALCULADORAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALCULADORAUITests.swift; sourceTree = "<group>"; };
 		B1F506F72AF38BDF00834846 /* CALCULADORAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALCULADORAUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		B1F5070C2AF3900300834846 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B1F5070C2AF3900300834846 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
 		B1F5070D2AF3900300834846 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		B1F507172AF4ED9800834846 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
