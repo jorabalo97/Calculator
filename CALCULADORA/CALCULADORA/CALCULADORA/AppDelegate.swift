@@ -9,6 +9,8 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    let storyboard = HomeViewController()
+  
 
     var window: UIWindow?
 

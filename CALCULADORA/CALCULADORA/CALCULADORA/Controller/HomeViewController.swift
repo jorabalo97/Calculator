@@ -36,7 +36,7 @@ final class HomeViewController: UIViewController {
     @IBOutlet weak var OperatorMultiplication: UIButton!
     @IBOutlet weak var OperatorSubstraction: UIButton!
     @IBOutlet weak var OperatorAddition: UIButton!
-    @IBOutlet weak var OperatorResult: UIButton!
+    @IBOutlet weak var OperatorResults: UIButton!
     @IBOutlet weak var OperatorPercent: UIButton!
     @IBOutlet weak var OperatorPlusMinus: UIButton!
     
@@ -58,6 +58,7 @@ final class HomeViewController: UIViewController {
     
     private let kDecimalSeparators = Locale.current.decimalSeparator
     private let KMaxLength = 9
+    private let kTotal = "total"
     private let KMaxValue:Double = 999999999
     private let KMinValue:Double = 0.00000001
     private enum OperationType{
@@ -72,14 +73,31 @@ final class HomeViewController: UIViewController {
         formatter.groupingSeparator = ""
         formatter.decimalSeparator = locale.decimalSeparator
         formatter.numberStyle = .decimal
+        formatter.maximumIntegerDigits = 100
+        formatter.maximumFractionDigits = 100
+        formatter.minimumFractionDigits = 0
         return formatter
+    }()
+    //Formateo de valores auxiliares totales
+    
+    private let auxTotalFormatter: NumberFormatter = {
+        let formatter = NumberFormatter()
+        formatter.groupingSeparator = ""
+        formatter.decimalSeparator = ""
+        formatter.numberStyle = .decimal
+        formatter.maximumIntegerDigits = 100
+        formatter.minimumFractionDigits = 0
+        formatter.maximumFractionDigits = 100
+        return formatter
+
+    
     }()
     
     // Formateo de valores por pantalla por defecto
     
     private let printFormatter: NumberFormatter = {
         let formatter = NumberFormatter()
-        let locale = Locale.current
+        let locale = NumberFormatter()
         formatter.groupingSeparator = locale.groupingSeparator
         formatter.decimalSeparator = locale.decimalSeparator
         formatter.numberStyle = .decimal
@@ -100,6 +118,11 @@ final class HomeViewController: UIViewController {
     // Mark: -Lyfe Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        NumberDecimal.setTitle(kDecimalSeparators, for: .normal)
+        
+        total = UserDefaults.standard.double(forKey: kTotal)
+        
         // UI
         Number0.round()
         Number1.round()
@@ -118,7 +141,7 @@ final class HomeViewController: UIViewController {
         OperatorAC.round()
         OperatorPlusMinus.round()
         OperatorPercent.round()
-        OperatorResult.round()
+        OperatorResults.round()
         OperatorAddition.round()
         OperatorSubstraction.round()
         OperatorMultiplication.round()
