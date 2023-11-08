@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B15A94672AFBA33B00D4EA82 /* HomeViewController.swift in Resources */ = {isa = PBXBuildFile; fileRef = B1F5070C2AF3900300834846 /* HomeViewController.swift */; };
 		B15E7D5F2AFA55E600D6933A /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B15E7D612AFA55E600D6933A /* HomeViewController.xib */; };
 		B1F506D52AF38BDE00834846 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F506D42AF38BDE00834846 /* AppDelegate.swift */; };
 		B1F506D72AF38BDE00834846 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F506D62AF38BDE00834846 /* SceneDelegate.swift */; };
@@ -298,6 +299,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B15A94672AFBA33B00D4EA82 /* HomeViewController.swift in Resources */,
 				B1F506E12AF38BDF00834846 /* LaunchScreen.storyboard in Resources */,
 				B1F506DE2AF38BDF00834846 /* Assets.xcassets in Resources */,
 				B15E7D5F2AFA55E600D6933A /* HomeViewController.xib in Resources */,
