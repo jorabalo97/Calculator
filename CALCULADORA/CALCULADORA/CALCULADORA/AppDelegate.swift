@@ -9,9 +9,11 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-    let storyboard = UIStoryboard(name: "HomeViewController.xib",  bundle: <#Bundle?#> )
+    let storyboard = UIStoryboard(name: "Main", bundle: nil)
 
 
+
+    
     var window: UIWindow?
 
 
@@ -27,7 +29,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let vc = HomeViewController()
         window?.rootViewController = vc
         window?.makeKeyAndVisible()
-        
         
     }
 

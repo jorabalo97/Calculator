@@ -109,7 +109,7 @@ final class HomeViewController: UIViewController {
     // Initialization
     
     init(){
-        super.init(nibName: nil, bundle: nil)
+        super.init(nibName: nil , bundle: nil)
     }
     
     required init?(coder: NSCoder) {
@@ -243,7 +243,7 @@ final class HomeViewController: UIViewController {
         }
         // Hemos seleccionado decimales
         if decimal {
-            currentTemp = "\(currentTemp)\(kDecimalSeparators ?? <#default value#>)"
+            currentTemp = "\(currentTemp)\(kDecimalSeparators ) ?? "
             decimal = false
         }
         let number = sender.tag
