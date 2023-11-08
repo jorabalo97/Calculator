@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "2A690FF6-87D4-4074-9114-459C5A90053D"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B6427FBA-D227-4DD2-9B48-26DB09876A57"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CALCULADORA/Controller/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "HomeViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "B6427FBA-D227-4DD2-9B48-26DB09876A57 - 74ff49e2808a4a6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CALCULADORA.HomeViewController.Number8.getter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "CALCULADORA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jorge.abalodieste/Desktop/Repositorioc%CC%A7/CALCULADORA/CALCULADORA/CALCULADORA/Controller/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "B6427FBA-D227-4DD2-9B48-26DB09876A57 - 9865aba5d082d4aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CALCULADORA.HomeViewController.Number8.setter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "CALCULADORA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jorge.abalodieste/Desktop/Repositorioc%CC%A7/CALCULADORA/CALCULADORA/CALCULADORA/Controller/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "B6427FBA-D227-4DD2-9B48-26DB09876A57 - 9aaf01dfc820de77"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CALCULADORA.HomeViewController.Number8.modify : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "CALCULADORA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jorge.abalodieste/Desktop/Repositorioc%CC%A7/CALCULADORA/CALCULADORA/CALCULADORA/Controller/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "B6427FBA-D227-4DD2-9B48-26DB09876A57 - d4df1f18a24907f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CALCULADORA.HomeViewController.Number8.modify : Swift.Optional&lt;__C.UIButton&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "CALCULADORA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jorge.abalodieste/Desktop/Repositorioc%CC%A7/CALCULADORA/CALCULADORA/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "B6427FBA-D227-4DD2-9B48-26DB09876A57 - 4456273dbee5a590"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CALCULADORA.HomeViewController.init() -&gt; CALCULADORA.HomeViewController"
+                  moduleName = "CALCULADORA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jorge.abalodieste/Desktop/Repositorioc%CC%A7/CALCULADORA/CALCULADORA/CALCULADORA/Controller/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "236">
+               </Location>
+               <Location
+                  uuid = "B6427FBA-D227-4DD2-9B48-26DB09876A57 - 65b021da2f9ce655"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CALCULADORA.HomeViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;CALCULADORA.HomeViewController&gt;"
+                  moduleName = "CALCULADORA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jorge.abalodieste/Desktop/Repositorioc%CC%A7/CALCULADORA/CALCULADORA/CALCULADORA/Controller/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "256">
+               </Location>
+               <Location
+                  uuid = "B6427FBA-D227-4DD2-9B48-26DB09876A57 - e16f88b9512f92a1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CALCULADORA.HomeViewController.Number9.getter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "CALCULADORA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jorge.abalodieste/Desktop/Repositorioc%CC%A7/CALCULADORA/CALCULADORA/CALCULADORA/Controller/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "B6427FBA-D227-4DD2-9B48-26DB09876A57 - 7a0a3e40f9a102b5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CALCULADORA.HomeViewController.Number9.setter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "CALCULADORA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jorge.abalodieste/Desktop/Repositorioc%CC%A7/CALCULADORA/CALCULADORA/CALCULADORA/Controller/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "B6427FBA-D227-4DD2-9B48-26DB09876A57 - 844f95faf1c70095"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CALCULADORA.HomeViewController.Number9.modify : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "CALCULADORA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jorge.abalodieste/Desktop/Repositorioc%CC%A7/CALCULADORA/CALCULADORA/CALCULADORA/Controller/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "B6427FBA-D227-4DD2-9B48-26DB09876A57 - d4df1f18a24907f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CALCULADORA.HomeViewController.Number9.modify : Swift.Optional&lt;__C.UIButton&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "CALCULADORA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jorge.abalodieste/Desktop/Repositorioc%CC%A7/CALCULADORA/CALCULADORA/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D04752F8-4B5A-47A6-9548-968C02687FEC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CALCULADORA/Controller/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "175"
+            endingLineNumber = "175"
+            landmarkName = "operatorPlusMinusAction(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D04752F8-4B5A-47A6-9548-968C02687FEC - 81fc10b81fc589c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CALCULADORA.HomeViewController.operatorDecimalAction(Any) -&gt; ()"
+                  moduleName = "CALCULADORA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jorge.abalodieste/Desktop/Repositorioc%CC%A7/CALCULADORA/CALCULADORA/CALCULADORA/Controller/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "D04752F8-4B5A-47A6-9548-968C02687FEC - 3326cf9810c2e83c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CALCULADORA.HomeViewController.operatorPlusMinusAction(__C.UIButton) -&gt; ()"
+                  moduleName = "CALCULADORA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jorge.abalodieste/Desktop/Repositorioc%CC%A7/CALCULADORA/CALCULADORA/CALCULADORA/Controller/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

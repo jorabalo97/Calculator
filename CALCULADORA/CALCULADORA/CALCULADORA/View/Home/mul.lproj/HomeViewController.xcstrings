@@ -1,0 +1,246 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "0Tp-hv-Uej.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"=\"; ObjectID = \"0Tp-hv-Uej\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "="
+          }
+        }
+      }
+    },
+    "2DF-5X-j6X.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"x\"; ObjectID = \"2DF-5X-j6X\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "x"
+          }
+        }
+      }
+    },
+    "4Lg-mt-h17.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"7\"; ObjectID = \"4Lg-mt-h17\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "7"
+          }
+        }
+      }
+    },
+    "gM3-NF-JFj.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"/\"; ObjectID = \"gM3-NF-JFj\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "/"
+          }
+        }
+      }
+    },
+    "gTj-AP-n9a.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"0\"; ObjectID = \"gTj-AP-n9a\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "0"
+          }
+        }
+      }
+    },
+    "gWi-xf-R22.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"+/-\"; ObjectID = \"gWi-xf-R22\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "+/-"
+          }
+        }
+      }
+    },
+    "h8k-3Z-RJg.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \",\"; ObjectID = \"h8k-3Z-RJg\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : ","
+          }
+        }
+      }
+    },
+    "HfU-ey-TpS.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"AC\"; ObjectID = \"HfU-ey-TpS\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "AC"
+          }
+        }
+      }
+    },
+    "kjA-Ph-usD.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"+\"; ObjectID = \"kjA-Ph-usD\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "+"
+          }
+        }
+      }
+    },
+    "kwl-J8-73f.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"4\"; ObjectID = \"kwl-J8-73f\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "4"
+          }
+        }
+      }
+    },
+    "l38-jC-j4r.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"2\"; ObjectID = \"l38-jC-j4r\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "2"
+          }
+        }
+      }
+    },
+    "lvI-69-5hK.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"-\"; ObjectID = \"lvI-69-5hK\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "-"
+          }
+        }
+      }
+    },
+    "ngI-Sc-gWS.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"3\"; ObjectID = \"ngI-Sc-gWS\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "3"
+          }
+        }
+      }
+    },
+    "p1C-ed-aBl.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"0\"; ObjectID = \"p1C-ed-aBl\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "0"
+          }
+        }
+      }
+    },
+    "qkL-Ax-NhI.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"8\"; ObjectID = \"qkL-Ax-NhI\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "8"
+          }
+        }
+      }
+    },
+    "R1b-7R-CgJ.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"5\"; ObjectID = \"R1b-7R-CgJ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "5"
+          }
+        }
+      }
+    },
+    "sMQ-UI-cQc.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"%\"; ObjectID = \"sMQ-UI-cQc\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%"
+          }
+        }
+      }
+    },
+    "uUC-98-Z3f.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"1\"; ObjectID = \"uUC-98-Z3f\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "1"
+          }
+        }
+      }
+    },
+    "Ycp-Ou-vcf.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"6\"; ObjectID = \"Ycp-Ou-vcf\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "6"
+          }
+        }
+      }
+    },
+    "Z88-zJ-k73.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"9\"; ObjectID = \"Z88-zJ-k73\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "9"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
