@@ -148,14 +148,23 @@ final class HomeViewController: UIViewController {
     }
     
     @IBAction func operatorSubstractionAction(_ sender: UIButton) {
+        result()
+        operating = true
+        operation = .substraction
         sender.shine()
     }
     
     @IBAction func operatorMultiplicationAction(_ sender: UIButton) {
+        result()
+        operating = true
+        operation = .multiplication
         sender.shine()
     }
     
     @IBAction func operatorDivisionAction(_ sender: UIButton) {
+        result()
+        operating = true
+        operation = .division
         sender.shine()
     }
     
@@ -185,10 +194,42 @@ final class HomeViewController: UIViewController {
         sender.shine()
     }
     
-    @IBAction func numberAction(_ sender: UIButton) {
+    @IBAction func numberDecimalAction(_ sender: UIButton) {
+        let currentTemp = auxFormatter.string(from: NSNumber(value: temp))!
+        if !operating && currentTemp.count >= KMaxLength{
+            return
+        }
+        resultLabel.text = resultLabel.text! + kDecimalSeparators!
+        decimal = true
         sender.shine()
-        print(sender.tag)
     }
+    @IBAction func numberAction(_ sender: UIButton) {
+       
+        OperatorAC.setTitle("C", for: .normal)
+        
+        var currentTemp = auxFormatter.string(from: NSNumber(value: temp))!
+        if !operating && currentTemp.count >= KMaxLength {
+            return
+        }
+        // Hemos seleccionado una operacion
+        if operating {
+            total = total == 0 ? temp : total
+            resultLabel.text = ""
+            currentTemp = ""
+            operating = false
+        }
+        // Hemos seleccionado decimales
+        if decimal {
+            currentTemp = "\(currentTemp)\(kDecimalSeparators)"
+            decimal = false
+        }
+        let number = sender.tag
+        temp = Double((currentTemp) + String(number))!
+        resultLabel.text = printFormatter.string(from: NSNumber(value: temp))!
+        
+        sender.shine()
+      }
+                                                 
         // Limpiar valores
     
        private  func clear() {
