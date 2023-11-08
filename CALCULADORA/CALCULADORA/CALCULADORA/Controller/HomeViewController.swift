@@ -243,7 +243,7 @@ final class HomeViewController: UIViewController {
         }
         // Hemos seleccionado decimales
         if decimal {
-            currentTemp = "\(currentTemp)\(kDecimalSeparators)"
+            currentTemp = "\(currentTemp)\(kDecimalSeparators ?? <#default value#>)"
             decimal = false
         }
         let number = sender.tag
