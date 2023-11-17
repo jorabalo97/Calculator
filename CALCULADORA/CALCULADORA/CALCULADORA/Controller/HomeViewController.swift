@@ -16,17 +16,16 @@ final class HomeViewController: UIViewController {
     //Number
     
     @IBOutlet weak var NumberDecimal: UIButton!
-    @IBOutlet weak var Number9: UIButton!
-    @IBOutlet weak var Number8: UIButton!
-    @IBOutlet weak var Number7: UIButton!
-    @IBOutlet weak var Number6: UIButton!
-    @IBOutlet weak var Number5: UIButton!
-    @IBOutlet weak var Number4: UIButton!
-    @IBOutlet weak var Number3: UIButton!
-    @IBOutlet weak var Number2: UIButton!
-    @IBOutlet weak var Number1: UIButton!
     @IBOutlet weak var Number0: UIButton!
-    
+    @IBOutlet weak var Number1: UIButton!
+    @IBOutlet weak var Number2: UIButton!
+    @IBOutlet weak var Number3: UIButton!
+    @IBOutlet weak var Number4: UIButton!
+    @IBOutlet weak var Number5: UIButton!
+    @IBOutlet weak var Number6: UIButton!
+    @IBOutlet weak var Number7: UIButton!
+    @IBOutlet weak var Number8: UIButton!
+    @IBOutlet weak var Number9: UIButton!
     
     
     
@@ -89,8 +88,8 @@ final class HomeViewController: UIViewController {
         formatter.minimumFractionDigits = 0
         formatter.maximumFractionDigits = 100
         return formatter
-
-    
+        
+        
     }()
     
     // Formateo de valores por pantalla por defecto
@@ -117,12 +116,23 @@ final class HomeViewController: UIViewController {
     }
     // Mark: -Lyfe Cycle
     override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        NumberDecimal.setTitle(kDecimalSeparators, for: .normal)
+        super.viewDidLoad ()
+     let decimalSeparators = kDecimalSeparators
+        if    decimalSeparators == kDecimalSeparators  ??  "valor por decto" {
+            NumberDecimal.setTitle(kDecimalSeparators, for: .normal)
+        } else {
+            // Manejar el caso en que kDecimalSeparators es nil
+            
+        }
         
         total = UserDefaults.standard.double(forKey: kTotal)
         
+        result()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+    
         // UI
         Number0.round()
         Number1.round()
@@ -227,7 +237,7 @@ final class HomeViewController: UIViewController {
         sender.shine()
     }
     @IBAction func numberAction(_ sender: UIButton) {
-       
+        
         OperatorAC.setTitle("C", for: .normal)
         
         var currentTemp = auxFormatter.string(from: NSNumber(value: temp))!
@@ -251,51 +261,51 @@ final class HomeViewController: UIViewController {
         resultLabel.text = printFormatter.string(from: NSNumber(value: temp))!
         
         sender.shine()
-      }
-                                                 
-        // Limpiar valores
+    }
     
-       private  func clear() {
-            operation = .none
-            OperatorAC.setTitle("AC",for: .normal)
-            if temp != 0 {
-                temp = 0
-                resultLabel.text = "0"
-            }else{
-                total = 0
-                result()
-            }
-        }
-        // Obtiene el resultado final
-       private  func result(){
-            switch operation{
-            case .none:
-                
-                break
-            case .addiction:
-                total = total + temp
-                break
-            case .substraction:
-                total = total - temp
-                break
-            case .multiplication:
-                total = total * temp
-                break
-            case .division:
-                total = total / temp
-                break
-            case .percent:
-                temp = temp / 100
-                total = temp
-                break
-            }
-            // Formateo en pantalla
-
-            if total <= KMaxValue || total >= KMinValue {
-                resultLabel.text = printFormatter.string(from: NSNumber(value: total))
-                
-            }
-                print("TOTAL:\(total)")
+    // Limpiar valores
+    
+    private  func clear() {
+        operation = .none
+        OperatorAC.setTitle("AC",for: .normal)
+        if temp != 0 {
+            temp = 0
+            resultLabel.text = "0"
+        }else{
+            total = 0
+            result()
         }
     }
+    // Obtiene el resultado final
+    private  func result(){
+        switch operation{
+        case .none:
+            
+            break
+        case .addiction:
+            total = total + temp
+            break
+        case .substraction:
+            total = total - temp
+            break
+        case .multiplication:
+            total = total * temp
+            break
+        case .division:
+            total = total / temp
+            break
+        case .percent:
+            temp = temp / 100
+            total = temp
+            break
+        }
+        // Formateo en pantalla
+        
+        if total <= KMaxValue || total >= KMinValue {
+            resultLabel.text = printFormatter.string(from: NSNumber(value: total))
+            
+        }
+        print("TOTAL:\(total)")
+    }
+}
 
