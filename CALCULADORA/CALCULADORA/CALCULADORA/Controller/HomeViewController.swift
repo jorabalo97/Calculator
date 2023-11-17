@@ -117,18 +117,20 @@ final class HomeViewController: UIViewController {
     // Mark: -Lyfe Cycle
     override func viewDidLoad() {
         super.viewDidLoad ()
-     let decimalSeparators = kDecimalSeparators
-        if    decimalSeparators == (kDecimalSeparators  ??  "valor por decto") {
-            NumberDecimal.setTitle(kDecimalSeparators, for: .normal)
-            
+        if let decimalSeparators = kDecimalSeparators {
+            NumberDecimal.setTitle(decimalSeparators, for: .normal)
+            total = UserDefaults.standard.double(forKey: kTotal)
+            result()
+        } else {
+            // Manejar el caso en que kDecimalSeparators es nil
+        }
+
+
             
             total = UserDefaults.standard.double(forKey: kTotal)
             
             result()
-        } else {
-            // Manejar el caso en que kDecimalSeparators es nil
-            
-        }
+      
             
         }
     override func viewDidAppear(_ animated: Bool) {
@@ -254,7 +256,7 @@ final class HomeViewController: UIViewController {
         }
         // Hemos seleccionado decimales
         if decimal {
-            currentTemp = "\(currentTemp)\(kDecimalSeparators ) ?? "
+            currentTemp = "\(currentTemp)\(kDecimalSeparators  ?? "") "
             decimal = false
         }
         let number = sender.tag
