@@ -118,18 +118,19 @@ final class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad ()
      let decimalSeparators = kDecimalSeparators
-        if    decimalSeparators == kDecimalSeparators  ??  "valor por decto" {
+        if    decimalSeparators == (kDecimalSeparators  ??  "valor por decto") {
             NumberDecimal.setTitle(kDecimalSeparators, for: .normal)
+            
+            
+            total = UserDefaults.standard.double(forKey: kTotal)
+            
+            result()
         } else {
             // Manejar el caso en que kDecimalSeparators es nil
             
         }
-        
-        total = UserDefaults.standard.double(forKey: kTotal)
-        
-        result()
-    }
-    
+            
+        }
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
     

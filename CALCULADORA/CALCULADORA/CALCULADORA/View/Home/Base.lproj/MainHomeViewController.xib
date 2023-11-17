@@ -15,7 +15,7 @@
         </array>
     </customFonts>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="CALCULADORA" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainHomeViewController">
             <connections>
                 <outlet property="Number0" destination="p1C-ed-aBl" id="I0f-eg-V0T"/>
                 <outlet property="Number1" destination="uUC-98-Z3f" id="q11-2x-mvh"/>
